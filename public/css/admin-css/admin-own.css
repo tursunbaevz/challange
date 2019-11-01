@@ -1,0 +1,72 @@
+/*Our css will be here*/
+
+a:hover {
+	text-decoration: none; 
+}
+
+.top-bread-button {
+	position: relative;
+}
+
+.bread {
+	float: right;
+	color: #1e898c;
+	font-size: 15px;
+}
+
+:root {
+	--borderWidth: 7px;
+	--height: 24px;
+	--width: 12px;
+	--borderColor: #78b13f;
+}
+
+
+.check {
+	margin-left: 10px;
+	display: inline-block;
+	transform: rotate(45deg);
+	height: var(--height);
+	width: var(--width);
+	border-bottom: var(--borderWidth) solid var(--borderColor);
+	border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+.add-goal-button {
+	position: absolute;
+}
+
+.input-center {
+	position: absolute;
+	width: 97%;
+	top: 9px;
+}
+
+@media screen and (max-width: 414px) {
+	.desk-title {
+		font-size: 19px;
+	}
+	.add-goal-button {
+		position: relative;
+		text-align: center;
+	}
+
+	.goal-info-notif {
+		max-width: 100% !important;
+	}
+
+	.pr-mob {
+		margin-right: 13px;
+	}
+
+	.pl-mob {
+		margin-left: 13px;
+	}
+
+	.timer-mob {
+		font-size: 13px !important;
+		position: relative;
+		left: -50%;
+		color: #fa1f2c !important;
+	}
+}

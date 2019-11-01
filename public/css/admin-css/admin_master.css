@@ -1,0 +1,292 @@
+html, body {
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.alert-notice-style {
+  width: 40em;
+  margin: auto;
+}
+
+
+.block-items {
+  background-color: #f7f3f3;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 20px;
+  background-color: #4e5d6d;
+}
+.d-inline-block a:hover {
+  color: #20c997;
+}
+
+.d-inline-block a {
+  color: #fff;
+}
+
+.navbar a,
+li a,
+.nav a,
+ul li a {
+  color: #fff;
+}
+
+
+.card-body h5 {
+  color: #636363;
+}
+
+.fileinput a:hover {
+  text-decoration: none;
+  color: #353333;
+}
+
+
+.navbar a:hover,
+li a:hover,
+.nav a:hover,
+ul li a:hover {
+  color: #20c997;
+  text-decoration: none;
+}
+
+
+.title {
+  padding-left: 2%; /* use this class for all title  */
+  color: #34495E; 
+  margin-bottom: 30px;
+}
+
+hr {
+  background-color: #000;
+}
+
+
+.container-fluid, .full-height{
+  height: 100%;
+}
+
+.float-btn {
+  position: absolute;
+  top: 99px;
+  right: 75px;
+}
+
+.float-btn:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.table thead th {
+  text-align: center;
+}
+
+.table tbody td {
+  text-align: center;
+}
+
+.float-right {
+  margin-right: 2em;
+  margin-bottom: 20px;
+}
+
+/* admin/post */
+
+.btn-danger {
+  color: #ffffff !important;
+}
+
+.table-style {
+  width: 96% !important;
+  margin-left: 20px;
+}
+
+.btn-center {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+.new-post-btn {
+	margin-bottom: 50px; 
+}
+
+
+/* --------- */
+
+
+/*     admin/album/Show.blade.php   */
+  
+.photo-block {
+  position: relative;
+  width: 250px;
+  height: 170px;
+  margin: 5px 5px;
+
+}
+
+div.photo-block a {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: none;
+}
+
+#photo-image {
+  width: 250px;
+  height: 170px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+div.photo-block:hover a{
+  display: block;
+  color: #dc3545;
+}
+
+/*    admin/album/index.blade.php   */
+
+
+#btncreate-album {
+  position: absolute;
+  left: 42.5%;
+}
+
+.album-block {
+  position: relative;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 123, 255, 0.04);
+  margin-bottom: 30px;
+
+}
+
+div.album-block a#edit-album {
+  color: #34495e;
+}
+
+div.album-block  a#trash-album {
+  color: #ca0f21;
+  margin-left: 10px;
+}
+
+
+
+
+
+#block-album-title {
+  position: absolute;
+  bottom: 18px;
+  text-align: center;
+}
+
+div.album-block div#block-album-title {
+  color: #fff;
+  display: none;
+  
+}
+
+div.album-block:hover div#block-album-title {
+  display: block;
+  color: #fff;
+  background-color: #92787894;
+}
+
+div#block-album-title h5 {
+  margin-top: 45%;
+}
+
+/* album create  */
+
+.fileinput {
+    display: inline-block;
+}
+
+.fileinput .thumbnail {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    max-width: auto;
+    max-height: 100%;
+}
+
+
+
+.fileinput .thumbnail > img {
+    max-height: 100%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.fileinput-exists .fileinput-new, .fileinput-new .fileinput-exists {
+    display: none;
+}
+
+
+.btn-round {
+    border-width: 1px;
+    padding: 11px 23px;
+    position: relative;
+}
+
+.btn, .navbar .navbar-nav > a.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    margin: 5px 1px;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 0.1875rem;
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: #888888;
+    color: #FFFFFF;
+}
+
+
+.btn-file > input {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 23px;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+     opacity: 0; 
+    direction: ltr;
+
+}
+
+
+.img-raised {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
